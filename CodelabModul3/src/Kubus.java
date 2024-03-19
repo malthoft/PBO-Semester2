@@ -24,7 +24,7 @@ public class Kubus extends BangunRuang {
 
     @Override
     public void volume() {
-        double hasil = sisi * sisi * sisi;
+        double hasil = Math.pow(sisi, 3);
         super.volume();
         System.out.println("Hasil volume: " + hasil);
     }
